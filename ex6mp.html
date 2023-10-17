@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MADHYA PRADESH</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            margin: 0;
+            background-color: #A582B4;
+        }
+        .frame {
+            flex: 1;
+            padding: 20px;
+            border-right: 1px solid #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0; 
+            transition: opacity 0.5s;
+        }
+        .frame-text {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0; 
+            transition: opacity 0.5s; 
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <a href="ex6india.html">Back</a>
+        <img src=https://img.naidunia.com/naidunia/ndnimg/14102022/14_10_2022-mp_map.jpg alt="Madhya Pradesh Image">
+    </div>
+    <div class="frame-text">
+        <h1>MADHYA PRADESH</h1>
+        <p>Geography: Madhya Pradesh is a central state of India known for its diverse topography. It is characterized by the Vindhya and Satpura mountain ranges, extensive forests, and the Narmada River flowing through its heart.</p>
+        
+        <p>Capital: The capital of Madhya Pradesh is Bhopal, famous for its scenic beauty and lakes. Another prominent city is Indore, known for its vibrant culture and cuisine.</p>
+        
+        <p>Language: Hindi is the official language of Madhya Pradesh, and various dialects are spoken across the state.</p>
+        
+        <p>Culture: Madhya Pradesh is rich in cultural heritage with classical music, dance forms, and traditional art. The state is known for its historic sites, including the UNESCO-listed Khajuraho temples.</p>
+     </div>
+    
+    <script>
+        setTimeout(function() {
+            document.querySelector(".frame").style.opacity = "1";
+            document.querySelector(".frame-text").style.opacity = "1";
+        }, 500); 
+    </script>
+</body>
+</html>

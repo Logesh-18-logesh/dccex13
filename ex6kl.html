@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KERALA</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            margin: 0;
+            background-color: #41A221;
+        }
+        .frame {
+            flex: 1;
+            padding: 20px;
+            border-right: 1px solid #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0; 
+            transition: opacity 0.5s;
+        }
+        .frame-text {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0; 
+            transition: opacity 0.5s; 
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <a href="ex6india.html">Back</a>
+        <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsh7UiiTKkHT_Qs5AcS2T2-qQhFnqNModiVw&usqp=CAU alt="Kerala Image">
+    </div>
+    <div class="frame-text">
+        <h1>KERALA</h1>
+        <p>Geography: Kerala, often referred to as "God's Own Country," is a state in South India known for its lush green landscapes, backwaters, and coastal regions along the Arabian Sea.</p>
+        
+        <p>Capital: The capital city of Kerala is Thiruvananthapuram (Trivandrum), a city known for its historic significance and beautiful beaches. Kochi (Cochin) is another major city with a rich cultural heritage.</p>
+        
+        <p>Language: Malayalam is the official language of Kerala. The state is also known for its high literacy rate.</p>
+        
+        <p>Culture: Kerala has a unique culture with traditional dance forms like Kathakali and Mohiniyattam, classical music, and vibrant festivals like Onam. The state is famous for its Ayurvedic traditions and cuisine.</p>
+    </div>
+    
+    <script>
+        setTimeout(function() {
+            document.querySelector(".frame").style.opacity = "1";
+            document.querySelector(".frame-text").style.opacity = "1";
+        }, 500); 
+    </script>
+</body>
+</html>
